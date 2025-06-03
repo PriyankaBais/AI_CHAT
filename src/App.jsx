@@ -8,9 +8,9 @@ function App() {
 
 
   async function genrateAnswer() {
-   setanswer('loading...')
+   setanswer ('loading...')
     const response = await axios({
-      url: "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=AIzaSyDneEYZQcefwbkVmTteM5iMZhPDlxckLak",
+      url: "",
       method: "post",
       data: {
         "contents": [{
