@@ -1,12 +1,26 @@
-# React + Vite
+# Chat AI Application
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a simple and interactive React-based AI Chat application that allows users to type questions and get AI-generated answers dynamically.
 
-Currently, two official plugins are available:
+## Project Overview
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+The application provides a clean and user-friendly interface where users can enter a question or query in a textarea, click a button to generate an answer, and view the response below. The AI answer is fetched asynchronously from an API using Axios.
 
-## Expanding the ESLint configuration
+## Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **Real-time user input:** Users can type questions or prompts in the textarea.
+- **Dynamic answer generation:** Upon clicking the "Generate Answer" button, the app sends the input to an AI service and displays the generated response.
+- **Loading state:** Displays a loading message while waiting for the AI response.
+- **Simple and elegant UI:** Built with React and styled with CSS for a clean look.
+- Responsive layout centered on the page with modern styling.
+
+## Technologies Used
+
+- React for building the UI components.
+- Vite as the build tool for fast development.
+- CSS for styling, including smooth transitions and responsive layout.
+
+## Author
+
+Priyanka Bais — MCA Student at NIT Kurukshetra
+---
